@@ -1,9 +1,11 @@
 <?php 
 
-/**
- * 
- */
-class UsersController extends BaseController 
+namespace App\Http\Controllers;
+use App\User;
+use App\Http\Controllers\Controller;
+
+
+class UsersController extends Controller 
 {
 	
 	public function showWelcome()
