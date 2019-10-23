@@ -13,12 +13,11 @@
 
 Route::get('/', function () {
     print "Szia";
-    return view('welcome');view('rian');
+    return view('rian');
 });
 
-Route::get('users', 'UsersController@get_user');
+//Route::get('users', 'UsersController@get_user');
 
-/*Route::get('users', function(){
-	print "Csáó";
+Route::get('users', function(){
+	return View::make('users');
 });
-*/
